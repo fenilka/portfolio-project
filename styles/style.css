@@ -49,19 +49,28 @@ p {
   font-size: 24px;
 }
 
-.about-page {
+.inner-page-content {
   padding: 160px 20px;
 }
 
-.about-page h1 {
+.inner-page-content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-page h2 {
+.inner-page-content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-page-content {
+.inner-page-content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+.inner-page-content p {
+  font-size: 14px;
+}
+.inner-page-content {
   margin: 30px;
 }
 .btn-branding {
@@ -98,7 +107,7 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-page {
+  .inner-page-content {
     text-align: center;
     padding: 0;
   }
