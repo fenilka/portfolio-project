@@ -25,9 +25,43 @@
     />
     <link rel="stylesheet" href="styles/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Works of Alina Klochkova - Front-end engineer based in Europe"
+    />
+    <title>Projects of Alina Klochkova - Front-end developer</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Alina Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Alina Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Alina">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Alina`s Work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Patricia">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="inner-page-container container">
       <div class="inner-page-content">
         <h1 class="mb-5">Take a look at what I`ve been working on!</h1>
@@ -36,42 +70,106 @@
             <img
               src="images/yogurt-project.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Yogurt project preview"
             />
-            <h3 class="text-center">Yogurt Project</h3>
-            <p class="text-center text-muted">Built with HTML and CSS</p>
+            <h3 class="text-center m-0">Yogurt Landing Page</h3>
+            <p class="text-center text-muted">
+              Built with HTML, CSS, and JavaScript
+            </p>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="images/weather-project.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Weather project preview"
             />
-            <h3 class="text-center">Weather Project</h3>
+            <h3 class="text-center m-0">Weather App</h3>
             <p class="text-center text-muted">
-              Built with HTML, CSS and JavaScript
+              Built using HTML, an active API, and advanced CSS and JavaScript
             </p>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="images/dictionary-project.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Disctionary project preview"
             />
-            <h3 class="text-center">Dictionary App</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
+            <h3 class="text-center m-0">Dictionary App</h3>
+            <p class="text-center text-muted">
+              Built using HTML, an active API, advanced CSS, and React
+            </p>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="images/translation-project.png"
-              class="iimg-fluid mb-3 rounded"
-              alt=""
+              class="img-fluid mb-3 rounded"
+              alt="Translation project preview"
             />
-            <h3 class="text-center">Translation App</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
+            <h3 class="text-center m-0">Translation App</h3>
+            <p class="text-center text-muted">
+              Built using HTML, an active API, advanced CSS, and React
+            </p>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Alina"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:afenilka@gmail.com"
+            class="email-link"
+            title="Email Alina"
+          >
+            afenilka@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/fenilka"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.instragram.com/afenilka.codes"
+            target="_blank"
+            title="instragram Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.twitter.com/afenilka"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Alina Klochkova, and is
+          <a
+            href="https://github.com/fenilka/portfolio-project"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
+      </footer>
     </div>
     <script
       defer

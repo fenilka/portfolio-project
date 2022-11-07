@@ -136,7 +136,7 @@ footer .email-link {
   color: black;
   font-size: 24px;
 }
-footer .email-links:hover {
+footer .email-link:hover {
   color: var(--branding-color);
 }
 footer .social-links a {
@@ -171,9 +171,6 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .inner-page-content {
     text-align: center;
